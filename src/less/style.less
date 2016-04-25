@@ -1,0 +1,278 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+  	outline: none;
+}
+
+html {
+	font-size: 10px;
+}
+
+article,
+footer, 
+header, 
+nav {
+	display: block; 
+}
+
+body {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fff;
+}
+
+/*-----------------FONTS&COLORS------------------*/
+@font36: 3.6rem; /*title header, title circles*/
+@font30: 3.0rem; /*logo*/
+@font24: 2.4rem; /*buttons, title section-h2,*/
+@font20: 2.0rem; /*circles text, contact titles*/
+@font16: 1.6rem; /*main text*/
+@font14: 1.4rem; /*small text*/
+@red: #ff0000;
+@white: #ffffff;
+@black: #323232;
+@grey: #f7f7f7;
+@lightGrey: #919191;
+/*-----------------------------------------------*/
+h2 {
+	font-size: @font24;
+	color: @black;
+	padding-top: 6rem;
+	padding-bottom: 3rem;
+}
+.main-text {
+	font-size: @font16;
+	color: @lightGrey;
+}
+/*----------------------------------------------*/
+/*----------------HEADER------------------------*/
+header {
+	background-repeat: no-repeat;
+	background-position: top; 
+	background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-ms-background-size: cover;
+	background-image: url(../../img/banner-bg.jpg);
+	height: 65.1rem;
+	padding-top: 3.0rem;
+
+
+	.logo {
+		font-size: @font30;
+		a {
+			color: @white;
+				&:hover {
+					text-decoration: none;
+				}
+		}
+			span {
+				color: @red; 
+			}
+	}
+
+	ul {
+		display: block;
+		margin-top: 1rem;
+		li {
+			display: inline-block;
+			a {
+				color: @white;
+				margin-left: 1.4rem;
+
+				&:hover {
+					color: @red;
+				}
+			}
+		}
+	}
+	h1 {
+		font-size: @font36;
+		font-weight: bold;
+		color: @red;
+		padding-top: 28rem;
+			span {
+				color: @white;
+			}
+	}
+	.btn-header {
+		margin-top: 5rem;
+		font-size: @font24;
+		font-weight: bold;
+		color: @white;
+		background: transparent;
+		border-radius: 0;
+		border: 2px solid @white;
+
+		&:hover {
+			color: @red;
+			background: transparent;
+			border: 2px solid @red;
+		}
+	}
+}
+/*----------------------------------------------*/
+
+/*----------------ABOUT US----------------------*/
+.about-us {
+	background-color: @grey;
+	min-height: 24.4rem;
+
+		p {
+			line-height: 1.5;
+			margin-bottom: 6rem;
+		}
+}
+/*----------------------------------------------*/
+
+/*-----------------HISTORY----------------------*/
+.history {
+
+	p {
+		line-height: 1.5;
+	}
+}
+/*----------------------------------------------*/
+
+/*-----------------SKILLS-----------------------*/
+.skills {
+	background-color: @grey;
+	
+		p {
+			line-height: 1.5;
+		}
+}
+/*----------------------------------------------*/
+
+/*-----------------TEAM-------------------------*/
+.team {
+	p {
+		line-height: 1.5;
+		margin-bottom: 6.6rem;
+	}
+}
+.thumbnail {
+	border: none !important;    
+}
+.caption {
+	h5 {
+		font-size: @font16;
+		color: @black;
+		font-weight: bold;
+	}
+	p {
+		font-size: @font14;
+		color: @lightGrey;
+	}
+	ul {
+		display: block;
+		margin-top: 1rem;
+		li {
+			display: inline-block;
+			a {
+				color: @red;
+				margin-left: 1.7rem;
+			}
+		}
+	}
+}
+/*----------------------------------------------*/
+/*---------------CONTACT------------------------*/
+.contact {
+	background-color: @grey;
+	min-height: 61.7rem;
+
+		p {
+			line-height: 1.5;
+			margin-bottom: 6rem;
+		}
+
+		h6 {
+			font-size: @font20;
+			color: @black; 
+			font-weight: bold;
+			margin-bottom: 3rem;
+		}
+
+		ul {
+			li {
+				list-style-type: none;
+				font-size: @font16;
+				color: @lightGrey;
+				margin-bottom: 3rem;
+				.fa {
+					color: @red;
+					width: 1.5rem;
+				}
+				span {
+					margin-left: 1rem;
+				}
+			}
+		}
+	.form-control {
+		border-radius: 0;
+	}
+
+	.form-inline {
+		.form-group {
+			input {
+				width: 26rem;
+			}
+		}
+	}
+
+	@media only screen and (max-width: 1200px) {
+		input {
+			width: 100% !important;
+		}
+	}
+	textarea {
+		margin-top: 2rem;
+	}
+
+	.btn-contact {
+		width: 20rem;
+		height: 5.5rem;
+		margin-top: 2.5rem;
+		margin-bottom: 3rem;
+		font-size: @font24;
+		font-weight: bold;
+		color: @white;
+		background-color: @red;
+		border-color: @red;
+		border-radius: 0;
+
+		&:hover {
+			background-color: transparent;
+			color: @red;
+			border: 2px solid @red;
+
+		}
+	}
+}
+/*----------------------------------------------*/
+
+/*----------------CIRCLES-----------------------*/
+.circle {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+}
+.circles-text {
+  font-size: @font36 !important;
+  font-weight: bold;
+  line-height: 1.5 !important;
+  margin-top: 6rem;
+  	span {
+	  display: block;
+	  line-height: 1.5;
+	  font-weight: normal;
+	  font-size: @font20;
+	  color: @lightGrey;
+	  text-transform: uppercase;
+	}
+}
+ 

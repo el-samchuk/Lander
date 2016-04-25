@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+html {
+  font-size: 10px;
+}
+article,
+footer,
+header,
+nav {
+  display: block;
+}
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+}
+/*-----------------FONTS&COLORS---------------------*/
+/*title header, title circles*/
+/*logo*/
+/*buttons, title section-h2,*/
+/*circles text, contact titles*/
+/*main text*/
+/*small text*/
+/*--------------------------------------------------*/
+h2 {
+  font-size: 2.4rem;
+  color: #323232;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+.main-text {
+  font-size: 1.6rem;
+  color: #919191;
+}
+/*----------------HEADER----------------------------*/
+header {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-image: url(../../img/banner-bg.jpg);
+  height: 65.1rem;
+  padding-top: 3.0rem;
+}
+header .logo {
+  font-size: 3rem;
+}
+header .logo a {
+  color: #ffffff;
+}
+header .logo a:hover {
+  text-decoration: none;
+}
+header .logo span {
+  color: #ff0000;
+}
+header ul {
+  display: block;
+  margin-top: 1rem;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  color: #ffffff;
+  margin-left: 1.4rem;
+}
+header ul li a:hover {
+  color: #ff0000;
+}
+header h1 {
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: #ff0000;
+  padding-top: 28rem;
+}
+header h1 span {
+  color: #ffffff;
+}
+header .btn-header {
+  margin-top: 5rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: transparent;
+  border-radius: 0;
+  border: 2px solid #ffffff;
+}
+header .btn-header:hover {
+  color: #ff0000;
+  background: transparent;
+  border: 2px solid #ff0000;
+}
+/*----------------------------------------------*/
+/*----------------ABOUT US----------------------*/
+.about-us {
+  background-color: #f7f7f7;
+  min-height: 24.4rem;
+}
+.about-us p {
+  line-height: 1.5;
+  margin-bottom: 6rem;
+}
+.history p {
+  line-height: 1.5;
+}
+.skills {
+  background-color: #f7f7f7;
+}
+.skills p {
+  line-height: 1.5;
+}
+.team p {
+  line-height: 1.5;
+  margin-bottom: 6.6rem;
+}
+.thumbnail {
+  border: none !important;
+}
+.caption h5 {
+  font-size: 1.6rem;
+  color: #323232;
+  font-weight: bold;
+}
+.caption p {
+  font-size: 1.4rem;
+  color: #919191;
+}
+.caption ul {
+  display: block;
+  margin-top: 1rem;
+}
+.caption ul li {
+  display: inline-block;
+}
+.caption ul li a {
+  color: #ff0000;
+  margin-left: 1.7rem;
+}
+/*---------------CONTACT--------------------*/
+.contact {
+  background-color: #f7f7f7;
+  min-height: 61.7rem;
+}
+.contact p {
+  line-height: 1.5;
+  margin-bottom: 6rem;
+}
+.contact h6 {
+  font-size: 2rem;
+  color: #323232;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+.contact ul li {
+  list-style-type: none;
+  font-size: 1.6rem;
+  color: #919191;
+  margin-bottom: 3rem;
+}
+.contact ul li .fa {
+  color: #ff0000;
+  width: 1.5rem;
+}
+.contact ul li span {
+  margin-left: 1rem;
+}
+.contact .form-control {
+  border-radius: 0;
+}
+.contact .form-inline .form-group input {
+  width: 26rem;
+}
+@media only screen and (max-width: 1200px) {
+  .contact input {
+    width: 100% !important;
+  }
+}
+.contact textarea {
+  margin-top: 2rem;
+}
+.contact .btn-contact {
+  width: 20rem;
+  height: 5.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #ff0000;
+  border-color: #ff0000;
+  border-radius: 0;
+}
+.contact .btn-contact:hover {
+  background-color: transparent;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+}
+/*----------------CIRCLES--------------*/
+.circle {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.circles-text {
+  font-size: 3.6rem !important;
+  font-weight: bold;
+  line-height: 1.5 !important;
+  margin-top: 6rem;
+}
+.circles-text span {
+  display: block;
+  line-height: 1.5;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #919191;
+  text-transform: uppercase;
+}
